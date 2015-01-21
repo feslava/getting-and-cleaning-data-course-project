@@ -25,3 +25,7 @@ The following steps describes the job:
    xData (10299 rows, 561 columns)
    yData (10299 rows, 1 column)
    sData (10299 rows, 1 column)
+   
+(4) Extracts only the measurements on the mean and standard deviation for each measurement. Measurements are obtained loading the file './features.txt'. The loaded table has 561 rows and 2 columns and as the second column has the names of the measurements, I have used the grep() funtion to find measurements with mean() and std() names. There are only 66 measurements on the mean and standard deviation. The variable okColumns contains these measurement indexes.
+
+(5) 
