@@ -30,7 +30,7 @@ The following steps describes the job:
 
 (5) In order to use descriptive activity names to name the activities in the data set, I have used the data file './activity_labels.txt'. This file has been loaded using the data.table() funtion and it's dimensions are 6 rows and 2 columns. To obtain the descriptive names, activities id's found in the first column will be replaced by the names of the second one. Finally, the column of the 'yData' data table is renamed to 'activity' and the column of the 'sData' data table is renamed to 'subject'. 
 
-(6) Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This data will be created with the aggregate() function and will generate a table of 180 rows and 68 columns.
+(6) Creates a second, independent tidy data set with the average of each variable for each activity and each subject. This data will be created with the aggregate() function, will be stored in the 'tidyData' variable, and will generate a data table of 180 rows and 68 columns.
 
 (7) Writes the result table using the write.table() function.
 
